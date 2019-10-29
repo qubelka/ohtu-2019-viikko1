@@ -4,3 +4,4 @@
 # build- and .gradle-folders
 /build/
 /.gradle/
+/.nb-gradle/
