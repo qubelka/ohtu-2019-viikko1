@@ -133,8 +133,7 @@ public class VarastoTest {
 
     @Test
     public void merkkijonoesitysToimii() {
-        String merkkijono = "saldo = 5.0, vielä tilaa 5.0";
+        String merkkijono = "saldo = 5.0, vielä tilaa 5";
         assertThat(varastoAlkusaldolla.toString(), is(merkkijono));
     }
-    
 }
