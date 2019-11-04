@@ -8,17 +8,17 @@ public class Main {
         Varasto mehua = new Varasto(100.0);
         Varasto olutta = new Varasto(100.0, 20.2);     
         
+        System.out.println("Luonnin jälkeen:");
+        System.out.println("Mehuvarasto: " + mehua);
+        System.out.println("Olutvarasto: " + olutta);
+        
         getJaSetMetodit(mehua, olutta);
         virhetilanteita();
         lisaaVarastoon(mehua, olutta);
         otaVarastosta(mehua, olutta);
     }
     
-    private static void getJaSetMetodit(Varasto mehua, Varasto olutta) {
-        System.out.println("Luonnin jälkeen:");
-        System.out.println("Mehuvarasto: " + mehua);
-        System.out.println("Olutvarasto: " + olutta);
-        
+    private static void getJaSetMetodit(Varasto mehua, Varasto olutta) {       
         System.out.println("Olutgetterit:");
         System.out.println("getSaldo()     = " + olutta.getSaldo());
         System.out.println("getTilavuus    = " + olutta.getTilavuus());
